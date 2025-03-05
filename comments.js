@@ -25,6 +25,6 @@ var server = http.createServer(function(req, res) {
         comments.push(comment);
         res.end('success');
     }
-}
+});
 server.listen(8080);
 console.log('server is listening on 8080');
